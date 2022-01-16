@@ -1,4 +1,4 @@
-# robot-dog-v2
+# clifford the ro-bot dog
 
 [Robot dog movement demonstration.](https://youtu.be/kb093glI7lM)
 
