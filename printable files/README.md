@@ -1,4 +1,4 @@
-read this file before printing any parts to avoid confusion/extra parts/missing parts.
+#read this file before printing any parts to avoid confusion/extra parts/missing parts.
 
 all parts should be printable without support
 with the exception of 'leg > foot'.
@@ -16,7 +16,9 @@ too. but I would reccomend the longer ones for the stronger holding strength.
 'leg > foot' is intended to be printed in soft TPU for grip, but many TPU are not particularly grippy despite their flexibility. This part will likely be replaced by
 a cast silicone foot in the future, which ideally will be compatible with the current lower leg.
 
-I would reccomend exporting and printing parts directly from the CAD instead of using these files. These files are liable to be not up-to-date, there could be
+#I would reccomend exporting and printing parts directly from the CAD instead of using these files. 
+
+These files are liable to be not up-to-date, there could be
 mistakes in the quantity/mirror denomination. Exporting and printing directly from the CAD ensures that you're printing the correct parts and also serves as
 an instruction/assembly manual. If you don't have access to Fusion 360, please note:
 
