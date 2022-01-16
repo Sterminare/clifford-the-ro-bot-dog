@@ -1,4 +1,4 @@
-#read this file before printing any parts to avoid confusion/extra parts/missing parts.
+# read this file before printing any parts to avoid confusion/extra parts/missing parts.
 
 all parts should be printable without support
 with the exception of 'leg > foot'.
@@ -16,11 +16,11 @@ too. but I would reccomend the longer ones for the stronger holding strength.
 'leg > foot' is intended to be printed in soft TPU for grip, but many TPU are not particularly grippy despite their flexibility. This part will likely be replaced by
 a cast silicone foot in the future, which ideally will be compatible with the current lower leg.
 
-#I would reccomend exporting and printing parts directly from the CAD instead of using these files. 
+# I would recommend exporting and printing parts directly from the CAD instead of using these files. 
 
 These files are liable to be not up-to-date, there could be
 mistakes in the quantity/mirror denomination. Exporting and printing directly from the CAD ensures that you're printing the correct parts and also serves as
-an instruction/assembly manual. If you don't have access to Fusion 360, please note:
+an instruction/assembly manual. If you don't have access to Fusion 360, and thus need to use these pre-exported files, please note:
 
 parts are denoted by their name followed by the quantity that you should print as-is, and mirrored (in any direction).
 quantity on parts in 'leg (2x + 2x mirror)' are quantity to print one leg- therefore, print the entire folder twice, and twice mirrored
@@ -28,6 +28,8 @@ as denoted by folder name.
 
 parts are not always oriented in a good printing orientation. use best judgement, given that all parts should be printable without support
 with the exception of 'leg > foot'.
+
+if you notice a part is outdated, or an error in the denomination, please report it and I'll update it.
 
 
 
