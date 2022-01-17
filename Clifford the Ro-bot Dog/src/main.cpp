@@ -5,7 +5,6 @@
 
 void setup() {
   initESP32();
-  initServos();
 }
 
 void loop() {
