@@ -1,3 +1,6 @@
+#ifndef __init_h__
+#define __init_h__
+
 extern Servo leg0_0;
 extern Servo leg0_1;
 extern Servo leg0_2;
@@ -13,3 +16,5 @@ extern Servo leg3_2;
 
 void initESP32();
 void initServos();
+
+#endif
