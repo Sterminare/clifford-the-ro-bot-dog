@@ -28,31 +28,19 @@ void initServos(){
     const int leg3_1_pin = -1;
     const int leg3_2_pin = -1;
 
-    Servo leg0_0;
     leg0_0.attach(leg0_0_pin, servo_min, servo_max);
-    Servo leg0_1;
     leg0_1.attach(leg0_1_pin, servo_min, servo_max);
-    Servo leg0_2;
     leg0_2.attach(leg0_2_pin, servo_min, servo_max);
 
-    Servo leg1_0;
     leg0_0.attach(leg1_0_pin, servo_min, servo_max);
-    Servo leg1_1;
     leg0_1.attach(leg1_1_pin, servo_min, servo_max);
-    Servo leg1_2;
     leg0_2.attach(leg1_2_pin, servo_min, servo_max);
 
-    Servo leg2_0;
     leg0_0.attach(leg2_0_pin, servo_min, servo_max);
-    Servo leg2_1;
     leg0_1.attach(leg2_1_pin, servo_min, servo_max);
-    Servo leg2_2;
     leg0_2.attach(leg2_2_pin, servo_min, servo_max);
 
-    Servo leg3_0;
     leg0_0.attach(leg3_0_pin, servo_min, servo_max);
-    Servo leg3_1;
     leg0_1.attach(leg3_1_pin, servo_min, servo_max);
-    Servo leg3_2;
     leg0_2.attach(leg3_2_pin, servo_min, servo_max);
 }
