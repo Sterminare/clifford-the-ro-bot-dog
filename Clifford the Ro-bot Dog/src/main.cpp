@@ -1,9 +1,13 @@
 #include <Arduino.h>
+#include <ESP32Servo.h>
+
+#include <initESP32.h>
+
+
 
 void setup() {
-  // put your setup code here, to run once:
+  initESP32();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 }
