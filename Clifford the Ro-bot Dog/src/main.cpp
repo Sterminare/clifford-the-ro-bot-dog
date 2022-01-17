@@ -1,12 +1,11 @@
 #include <Arduino.h>
 #include <ESP32Servo.h>
 
-#include <initESP32.h>
-
-
+#include <init.h>
 
 void setup() {
   initESP32();
+  initServos();
 }
 
 void loop() {
