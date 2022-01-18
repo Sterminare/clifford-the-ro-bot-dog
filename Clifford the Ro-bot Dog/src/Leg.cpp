@@ -13,14 +13,16 @@ Leg::Leg(int hip_pin, int elbow_pin, int wrist_pin){
     int _wrist_limit[] = {500, 2500};   
 
     // create and attach servos
-    Servo hipServo;
-    hipServo.attach(_hip_pin, _hip_limit[0], _hip_limit[1]);
-    Servo elbowServo;
-    elbowServo.attach(_elbow_pin, _elbow_limit[0], _elbow_limit[1]);
-    Servo wristServo;
-    wristServo.attach(_wrist_pin, _wrist_limit[0], _wrist_limit[1]);
+    Servo _hipServo;
+    _hipServo.attach(_hip_pin, _hip_limit[0], _hip_limit[1]);
+    Servo _elbowServo;
+    _elbowServo.attach(_elbow_pin, _elbow_limit[0], _elbow_limit[1]);
+    Servo _wristServo;
+    _wristServo.attach(_wrist_pin, _wrist_limit[0], _wrist_limit[1]);
 }
 
-int Leg::info(){
-    return 1;
+void Leg::zero(){
+    _hipServo.write(90);
+    _elbowServo.write(90);
+    _wristServo.write(90);
 }
