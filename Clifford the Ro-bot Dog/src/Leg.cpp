@@ -8,6 +8,7 @@ Leg::Leg(int hip_pin, int elbow_pin, int wrist_pin){
     _elbow_pin = elbow_pin;
     _wrist_pin = wrist_pin;
 
+    // set servo limits by joint (microseconds)
     int _hip_limit[] = {500, 2500};
     int _elbow_limit[] = {500, 2500};
     int _wrist_limit[] = {500, 2500};   
@@ -21,8 +22,13 @@ Leg::Leg(int hip_pin, int elbow_pin, int wrist_pin){
     _wristServo.attach(_wrist_pin, _wrist_limit[0], _wrist_limit[1]);
 }
 
+// center all servos
 void Leg::zero(){
     _hipServo.write(90);
     _elbowServo.write(90);
     _wristServo.write(90);
+}
+
+void Leg::write(char joint, int position){
+
 }
